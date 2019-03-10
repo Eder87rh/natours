@@ -98,7 +98,8 @@ body {
     @media (max-width: 37.5em) {
       .heading-primary--main {
         letter-spacing: 1rem;
-        font-family: 5rem; } }
+        font-family: 5rem;
+        font-size: 5rem; } }
   .heading-primary--sub {
     display: block;
     font-size: 2rem;
@@ -706,7 +707,7 @@ body {
     width: calc(3 * ((100% - 3 * 6rem) /4) + 2 * 6rem); }
 
 .header {
-  height: 95vh;
+  height: 85vh;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../img/hero.jpg");
   background-size: cover;
   background-position: top;
@@ -932,7 +933,7 @@ body {
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../img/nat-4.jpg");
   background-size: cover;
   transform: skewY(-7deg);
-  margin-top: -12rem; }
+  margin-top: -10rem; }
   .section-features > * {
     transform: skewY(7deg); }
   @media (max-width: 56.25em) {
@@ -945,14 +946,14 @@ body {
   margin-top: -10rem; }
   @media (max-width: 56.25em) {
     .section-tours {
-      padding: 10rem 0; } }
+      padding: 20rem 0 10rem 0; } }
 
 .section-stories {
   padding: 15rem 0;
   position: relative; }
   @media (max-width: 56.25em) {
     .section-stories {
-      padding: 20rem 0 10rem 0; } }
+      padding: 10rem 0; } }
 
 .section-book {
   padding: 15rem 0;
@@ -968,7 +969,7 @@ body {
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
   @media (max-width: 75em) {
     .book {
-      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../../img/nat-10.jpg);
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 50%), url(../../img/nat-10.jpg);
       background-size: cover; } }
   @media (max-width: 56.25em) {
     .book {

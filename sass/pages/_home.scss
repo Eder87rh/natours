@@ -18,7 +18,7 @@
     url("../img/nat-4.jpg");
     background-size: cover;
     transform: skewY(-7deg);
-    margin-top: -12rem;
+    margin-top: -10rem;
 
     & > * {
         transform: skewY(7deg);
@@ -35,7 +35,7 @@
   margin-top: -10rem;
 
   @include respond(tab-port) {
-    padding: 10rem 0;
+    padding: 20rem 0 10rem 0;
   }
 }
 
@@ -44,7 +44,7 @@
   position: relative;
 
   @include respond(tab-port) {
-    padding: 20rem 0 10rem 0;
+    padding: 10rem 0;
   }
 }
 
@@ -75,7 +75,7 @@
     105deg, 
     rgba($color-white, .9) 0%, 
     rgba($color-white, .9) 65%, 
-    transparent 65%
+    transparent 50%
     ), 
     url(../../img/nat-10.jpg);
     background-size: cover;
